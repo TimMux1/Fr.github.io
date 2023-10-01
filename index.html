@@ -1,0 +1,181 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="favicon.ico">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <title>Спорт Магазин</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!-- Навигация Bootstrap -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <span class="navbar-brand">Спортивный Магазин</span>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="mensDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Мужчины
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="mensDropdown">
+                                <a class="dropdown-item" href="#">Обувь</a>
+                                <a class="dropdown-item" href="#">Топы и Футболки</a>
+                                <a class="dropdown-item" href="#">Шоты</a>
+                                <a class="dropdown-item" href="#">Штаны</a>
+                                <a class="dropdown-item" href="#">Носки</a>
+                                <a class="dropdown-item" href="#">Толстовки и кофты</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="womensDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Женщины
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="womensDropdown">
+                                <a class="dropdown-item" href="#">Обувь</a>
+                                <a class="dropdown-item" href="#">Топы и Футболки</a>
+                                <a class="dropdown-item" href="#">Шоты</a>
+                                <a class="dropdown-item" href="#">Штаны</a>
+                                <a class="dropdown-item" href="#">Носки</a>
+                                <a class="dropdown-item" href="#">Толстовки и кофты</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="kidsDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Дети
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="kidsDropdown">
+                                <a class="dropdown-item" href="#">Обувь</a>
+                                <a class="dropdown-item" href="#">Топы и Футболки</a>
+                                <a class="dropdown-item" href="#">Шоты</a>
+                                <a class="dropdown-item" href="#">Штаны</a>
+                                <a class="dropdown-item" href="#">Носки</a>
+                                <a class="dropdown-item" href="#">Толстовки и кофты</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="acsDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Аксессуары
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="acsDropdown">
+                                <a class="dropdown-item" href="#">Браслеты</a>
+                                <a class="dropdown-item" href="#">Сумки и рюкзаки</a>
+                                <a class="dropdown-item" href="#">Головные уборы</a>
+                                <a class="dropdown-item" href="#">Бутылки с водой</a>
+                            </div>
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="container">
+                        <div class="input-group">
+                            <input type="text" id="search-input" class="form-control" placeholder="Введите текст...">
+                            <button class="btn btn-primary search-button">Найти</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Основной контент страницы -->
+            <div class="container">
+                <h1>Добро пожаловать в Спорт Магазин</h1>
+                <h2><p>Мы предлагаем широкий выбор спортивных товаров для вас.</p></h2>
+                <div class="buttons">
+                    <a href="registration.html" class="btn btn-primary button">Регистрация</a>
+                    <a href="login.html" class="btn btn-secondary button">Вход</a>
+                </div>
+                    <div class="card mt-4">
+        <img src="card-image.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">New Collection</h5>
+            <p class="card-text">To find out about a new collection of merchandise arriving today click on the "Learn More" button.</p>
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+             <video controls muted autoplay loop class="d-block w-100">
+                <source src="car1.mp4" type="video/mp4">
+                Ваш браузер не поддерживает видео.
+            </video>
+        </div>
+        <div class="carousel-item">
+            <img src="car2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="car3.jpg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </a>
+</div>
+            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+    </div>
+</div>
+            </div>
+         <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="фото1.jpg" class="card-img-top" style="width: 350px; height: 200px; " alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">LeBron NXXT Gen</h5>
+                    <p class="card-text">170$.</p>
+                    <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="фото2.jpg" class="card-img-top"  style="width: 350px; height: 200px; " alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Nike Sportswear Essential</h5>
+                    <p class="card-text">52$</p>
+                    <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="фото3.jpg" class="card-img-top"  style="width: 350px; height: 200px; " alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Nike Therma-FIT</h5>
+                    <p class="card-text">65$</p>
+                    <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="container mt-4">
+    <h3>Форма для обратной связи</h3>
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Имя</label>
+            <input type="text" class="form-control" id="name" placeholder="Введите ваше имя">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Введите ваш email">
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Сообщение</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Введите ваше сообщение"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Отправить</button>
+    </form>
+</div>
+            <div class="background">
+                <img src="logo.jpg" alt="Логотип" class="logo">
+            </div>
+        </div>
+    </body>
+    </html>
